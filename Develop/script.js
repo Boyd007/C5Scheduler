@@ -49,5 +49,5 @@ $(document).ready(function () {
       }
     });
   }
-  hourTracker(); //re-run function
+  hourTracker(); 
 });
