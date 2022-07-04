@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
   $('.saveBtn').on('click', function () {
-    localStorage.setItem($(this).prev().attr("id"), $(this).prev().val());
+    localStorage.setItem($(this).parent().attr("id"), $(this).prev().val());
 });
 
   $("#hour8 .description").val(localStorage.getItem("hour8"));
