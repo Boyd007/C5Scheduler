@@ -4,6 +4,7 @@ This is a scheduler that allows the user to save events for each hour of the
 day.
 
 ## Usage
+<img width="754" alt="image" src="https://user-images.githubusercontent.com/105176171/177228413-ecd92d10-bc9a-44a4-bd88-830d10798422.png">
 
 This application satisfies the above
 criteria by accurately displaying the date, time, availability, blocked time and allowing the user to save this information utilizing the save button.
